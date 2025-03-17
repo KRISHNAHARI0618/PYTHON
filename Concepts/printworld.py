@@ -12,3 +12,8 @@ main()
 
 for i in range(10):
     print(i,end=" ")
+
+def multiplication():
+    print("Multiplication idea ... ")
+
+multiplication()
