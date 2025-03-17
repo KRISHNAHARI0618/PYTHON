@@ -1,0 +1,281 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 20,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
+    
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.foreground": "#d8e28c",
+    "editor.semanticTokenColorCustomizations": {
+    
+    },
+    "breadcrumbs.enabled": false,
+    "accessibility.signalOptions": {
+        
+        "volume": 70,
+        "debouncePositionChanges": false,
+        "experimental.delays": {
+            "general": {
+                "announcement": 3000,
+                "sound": 400
+            },
+            "warningAtPosition": {
+                "announcement": 3000,
+                "sound": 1000
+            },
+            "errorAtPosition": {
+                "announcement": 3000,
+                "sound": 1000
+            }
+        }
+    },
+    "editor.codeActionsOnSave": {
+
+    },
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+
+    },
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoIndent": true,
+    "editor.tokenColorCustomizations": {
+    "[Atom One Dark]": {
+        "comments": "#d8e28c",
+        
+    }
+},
+"editor.indentSize": "tabSize",
+"gopls": {
+    "ui.semanticTokens": true
+},
+"git.openRepositoryInParentFolders": "always",
+"explorer.confirmDragAndDrop": false,
+"go.toolsManagement.autoUpdate": true,
+// "workbench.colorCustomizations": {
+//     "editor.background": "#302f2f",
+// },
+"workbench.editor.labelFormat": "short",
+"workbench.editor.languageDetection": false,
+"workbench.editor.tabSizingFixedMaxWidth": 100,
+"workbench.editor.tabSizingFixedMinWidth": 60,
+"go.testExplorer.showDynamicSubtestsInEditor": true,
+"editor.accessibilityPageSize": 15,
+"editor.renderControlCharacters": false,
+"editor.minimap.size": "fit",
+"editor.minimap.enabled": false,
+"editor.renderLineHighlightOnlyWhenFocus": true,
+"editor.minimap.renderCharacters": false,
+"terminal.integrated.cursorWidth": 0,
+"git.ignoreRebaseWarning": true,
+"gitlens.advanced.messages": {
+    "suppressIntegrationRequestTimedOutWarning": true
+},
+"[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+},
+"git.replaceTagsWhenPull": true,
+"workbench.editorAssociations": {
+    "*.gz": "default"
+},
+"notebook.markup.fontSize": 16,
+"chat.editor.fontSize": 18,
+"editor.lineHeight": 1.2,
+"debug.console.lineHeight": 1.5,
+"markdown.preview.lineHeight": 1,
+"terminal.integrated.enableImages": true,
+"debug.console.fontSize": 18,
+"debug.autoExpandLazyVariables": true,
+"security.workspace.trust.untrustedFiles": "open",
+"json.schemas": [
+
+    
+],
+"git.confirmSync": false,
+"window.confirmSaveUntitledWorkspace": false,
+"workbench.layoutControl.enabled": false,
+"jupyter.enableExtendedPythonKernelCompletions": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "remote.SSH.enableRemoteCommand": true,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "output.smartScroll.enabled": false,
+    "notebook.consolidatedOutputButton": false,
+    "go.testExplorer.showOutput": false,
+    "editor.fontLigatures": false,
+    "editor.language.brackets": [
+
+    ],
+    "redhat.telemetry.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "GitHub Light Default",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.commandCenter": false,
+    "terminal.integrated.fontWeight": "normal",
+    "workbench.fontAliasing": "auto",
+    "scm.inputFontSize": 18,
+    "markdown.preview.fontSize": 16,
+    "settingsSync.ignoredSettings": [
+        "-python.venvPath"
+    ],
+    "workbench.sash.size": 10,
+    "workbench.sash.hoverDelay": 3,
+    "workbench.tree.indent": 20,
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.tree.indent"
+    ],
+    "editor.codeLensFontSize": 18,
+    "editor.codeLensFontFamily": "18",
+    "editor.experimentalInlineEdit.fontFamily": "18",
+    "editor.minimap.sectionHeaderFontSize": 18,
+    "editor.inlayHints.fontSize": 18,
+    "database-client.autoSync": true,
+    "python.globalModuleInstallation": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "editor.autoClosingQuotes": "always",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMapByFileExtension": {
+
+        ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
+        ".vbs": "cscript //Nologo",
+        ".scala": "scala",
+        ".jl": "julia",
+        ".cr": "crystal",
+        ".ml": "ocaml",
+        ".zig": "zig run",
+        ".exs": "elixir",
+        ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        ".rkt": "racket",
+        ".scm": "csi -script",
+        ".ahk": "autohotkey",
+        ".au3": "autoit3",
+        ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+        ".kts": "kotlinc -script",
+        ".dart": "dart",
+        ".pas": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".pp": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        ".hs": "runhaskell",
+        ".nim": "nim compile --verbosity:0 --hints:off --run",
+        ".csproj": "dotnet run --project",
+        ".fsproj": "dotnet run --project",
+        ".lisp": "sbcl --script",
+        ".kit": "kitc --run",
+        ".v": "v run",
+        ".vsh": "v run",
+        ".sass": "sass --style expanded",
+        ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        ".ring": "ring",
+        ".sml": "cd $dir && sml $fileName",
+        ".mojo": "mojo run",
+        ".erl": "escript",
+        ".spwn": "spwn build",
+        ".pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        ".gleam": "gleam run -m $fileNameWithoutExt"
+    },
+    "code-runner.executorMap": {
+
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python3 -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "mojo": "mojo run",
+        "erlang": "escript",
+        "spwn": "spwn build",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        "gleam": "gleam run -m $fileNameWithoutExt"
+    },
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.cacheLSPData": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.packageIndexDepths": [
+        
+        {
+            "name": "sklearn",
+            "depth": 2
+        },
+        {
+            "name": "matplotlib",
+            "depth": 2
+        },
+        {
+            "name": "scipy",
+            "depth": 2
+        },
+        {
+            "name": "django",
+            "depth": 2
+        },
+        {
+            "name": "flask",
+            "depth": 2
+        },
+        {
+            "name": "fastapi",
+            "depth": 2
+        }
+    ]
+}
