@@ -17,3 +17,18 @@ def multiplication():
     print("Multiplication idea ... ")
 
 multiplication()
+
+
+def calculator():
+    return True
+
+calculator()
+
+def multiplication():
+    print("simple learning python ..... ")
+
+
+multiplication()
+
+print("Reddy Gari Ammayi ")
+
