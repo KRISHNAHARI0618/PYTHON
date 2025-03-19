@@ -13,7 +13,7 @@ main()
 for i in range(10):
     print(i,end=" ")
 
-def multiplication():
+def multiplication(): # type: ignore
     print("Multiplication idea ... ")
 
 multiplication()
