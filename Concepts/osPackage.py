@@ -92,6 +92,8 @@ print(chr(98))
 
 print(os.system("pwd"))
 
+print(os.uname())
+
 
 
 
