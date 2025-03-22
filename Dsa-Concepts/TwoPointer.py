@@ -67,7 +67,13 @@ elements  = [5,6,1,8,7,3,2,9,3]
 target = 10
 Found = TwoPointerObject.TwoPointerMethod(elements,target)
 
+print()
+
+def main():
+    print("Peddireddy")
 print(Found)
+
+main()
 
 
 
