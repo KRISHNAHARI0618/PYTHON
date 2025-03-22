@@ -18,4 +18,11 @@ All you need to do,is select it and enter the following coupon code on the check
 `python3 manage.py runserver`
 - To manage/create multiple apps also called modules
 `python3 manage.py startapp <app-names>`
+
+#### URLs and Views or Routes
+
+- The logic executed for different URLS is triggered
+- function and class contain logic for the urls
+- url is the different requestes by different page
+- 
 - 
