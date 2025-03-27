@@ -10,5 +10,5 @@ print(sym2)
 palin = s == s[::-1]
 
 print("Symmetrical" if sym else "Not symmetrical")
-print("Palindrome" if palin else "not palidrome")
+print("Palindrome" if palin else "Not palidrome")
 
