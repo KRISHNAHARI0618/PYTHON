@@ -38,3 +38,27 @@ def func(x):
     return x % 2 == 0
 s = filter(func,list1)
 print(list(s))
+
+# Using replaces method
+s = "Hello World one two three  four soven oven towen droven"
+s = s.replace('o','p',5) #Max replacement is 5
+print(s)
+
+# Using List Comprehension
+s = "poddiroddy"
+s = "".join([c for c in s if c != "o"])
+print(s)
+
+# Using Filter method
+s = "peddireddy"
+s = "".join(filter(lambda a : a != 'd',s))
+print(s)
+
+# Using slicing method
+
+s = "peddireddy"
+index = s.find('d')
+
+if index != -1:
+    s = s[:index] + s[index+1:]
+print(s)
