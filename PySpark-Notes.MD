@@ -45,5 +45,5 @@
   - dayofmonth,hour,dayofyear,month,weekofyear,format_number,date_format
   - df.select(dayofmonth(df['Date'])).show()
 
-- Data Frame Project Exercies
-  - 
+## Spark Streaming Platforms:(Data-Pipelines)
+- 
