@@ -50,3 +50,17 @@ if is_palindrome:
     print("yes")
 else:
     print("Noo Please check again")
+
+
+class solution:
+    def is_palindrome(self,x:int):
+        strCov = str(x)
+        temp = strCov
+        a = 0
+        b = len(strCov)-1
+        while a < b:
+            if strCov == strCov[::-1]:
+                return True
+        return False
+Object1  = solution()
+print(Object1.is_palindrome(121))

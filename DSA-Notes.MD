@@ -31,4 +31,35 @@
 #### Big O Notation
 - Node is pointer & value 
 - Its is also a nested dictionary
-- 
+
+### Hash Tables
+- Collisions :
+  - Seperate Chaining
+    - 
+- Linear Probing
+```
+class HashTable
+```
+### A Recipe for Problem Solving:
+- **Understand the Problem**:
+  - Can we restate the problem in our own words?
+  - What are inputs that go into the problem?
+  - What are output that come from the problem?
+  - Can the outouts determined from the inputs provided
+  - Do we have enough info to solve the problem?
+  - what should i label the important piece of data that are part of a problem?
+- Explore the concrete examples
+  - start with simple examples
+  - progress to more complex examples
+  - explore with empty inputs
+  - explore with invalid inputs
+- BreakDown the Problem
+  - Write out the steps that you need to take
+- Solve and Simplify
+  - Simplify the problem and write the simple steps
+- Look Back Refactor
+  - Improve the code and reduce the time complexity
+  - Check result
+  - try different ways
+  - understand it a glance
+  - how other poeple solve this problem
