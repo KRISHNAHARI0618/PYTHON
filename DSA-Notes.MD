@@ -48,16 +48,16 @@ class HashTable
   - Can the outouts determined from the inputs provided
   - Do we have enough info to solve the problem?
   - what should i label the important piece of data that are part of a problem?
-- Explore the concrete examples
+- **Explore the concrete examples**
   - start with simple examples
   - progress to more complex examples
   - explore with empty inputs
   - explore with invalid inputs
-- BreakDown the Problem
+- **BreakDown the Problem**
   - Write out the steps that you need to take
-- Solve and Simplify
+- **Solve and Simplify**
   - Simplify the problem and write the simple steps
-- Look Back Refactor
+- **Look Back Refactor**
   - Improve the code and reduce the time complexity
   - Check result
   - try different ways
