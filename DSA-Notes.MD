@@ -45,7 +45,7 @@ class HashTable
   - Can we restate the problem in our own words?
   - What are inputs that go into the problem?
   - What are output that come from the problem?
-  - Can the outouts determined from the inputs provided
+  - Can the outputs determined from the inputs provided
   - Do we have enough info to solve the problem?
   - what should i label the important piece of data that are part of a problem?
 - **Explore the concrete examples**

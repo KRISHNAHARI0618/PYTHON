@@ -62,5 +62,23 @@ class solution:
             if strCov == strCov[::-1]:
                 return True
         return False
+
 Object1  = solution()
 print(Object1.is_palindrome(121))
+
+x = 121
+print(str(x))
+
+if x > 1:
+    temp = x
+    res = 0
+    while x > res:
+        rem = x %10
+        res = res *10 + rem
+        x = x//10
+    if temp == x:
+        print(True)
+    else:
+        print(False)
+else:
+    print(False)
