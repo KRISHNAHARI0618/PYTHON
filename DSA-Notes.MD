@@ -63,3 +63,128 @@ class HashTable
   - try different ways
   - understand it a glance
   - how other poeple solve this problem
+
+# Data Structures and Algorithms (DSA) - Interview-Focused Roadmap
+
+## Introduction
+- Introduction to DSA
+- Time & Space Complexity Analysis (Big O Notation)
+
+## Arrays & Strings
+- Arrays - Basics & Operations
+- String Manipulation & Pattern Matching
+- Sliding Window Technique
+- Two Pointer Technique
+- Kadane’s Algorithm (Maximum Subarray)
+
+## Searching Algorithms
+- Linear Search
+- Binary Search (with Variants: First/Last Occurrence, Search in Rotated Sorted Array)
+
+## Sorting Algorithms
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Counting Sort
+- Radix Sort
+
+## Recursion & Backtracking
+- Recursion Basics
+- Backtracking Basics
+- N-Queens Problem
+- Sudoku Solver
+- Subsets, Permutations, Combinations
+
+## Linked Lists
+- Linked Lists - Basics & Operations
+- Linked Lists - Reversal & Merge
+- Detect Cycle (Floyd’s Algorithm)
+- Intersection of Two Linked Lists
+
+## Stack & Queue
+- Stack - Basics & Applications
+- Queue - Basics & Variants
+- Next Greater Element
+- Min Stack
+- Implement Queue using Stacks / Stack using Queues
+- LRU Cache (Design Problem)
+
+## Trees
+- Trees - Basics & Traversals (Inorder, Preorder, Postorder, Level Order)
+- Binary Search Trees (BST)
+- Lowest Common Ancestor (LCA)
+- Diameter of a Binary Tree
+- Balanced Binary Tree
+- Serialize & Deserialize Binary Tree
+
+## Heaps
+- Heap & Priority Queue
+- Heap Sort
+- Top K Elements Problem
+- Median in a Stream
+
+## Tries
+- Trie Data Structure & Applications
+- Word Search Problems
+- Auto-complete Feature
+
+## Hashing
+- Hash Maps & Sets
+- Group Anagrams
+- Two Sum / 3Sum / 4Sum
+- Longest Consecutive Sequence
+
+## Graphs
+- Graph Basics & Representations
+- Graph Traversals (BFS, DFS)
+- Detect Cycles (Directed & Undirected)
+- Topological Sort
+- Graph Coloring Problem
+
+## Graph Algorithms
+- Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall)
+- Minimum Spanning Tree (Prim’s, Kruskal’s)
+- Union-Find (Disjoint Set Union)
+
+## Dynamic Programming (DP)
+- Dynamic Programming Basics
+- DP - 0/1 Knapsack Problem
+- DP - Longest Common Subsequence
+- DP - Longest Increasing Subsequence
+- DP - Matrix Chain Multiplication
+- DP - Subset Sum / Partition
+- DP - Edit Distance
+- DP - Coin Change
+- DP - House Robber / Paint House
+
+## Greedy Algorithms
+- Activity Selection
+- Fractional Knapsack
+- Job Sequencing Problem
+- Huffman Coding
+
+## Bit Manipulation
+- XOR Tricks
+- Check if Power of 2
+- Count Set Bits
+- Single Number Problems
+
+## Math & Logic
+- Sieve of Eratosthenes
+- GCD / LCM
+- Modular Arithmetic
+- Combinatorics (nCr, Pascal’s Triangle)
+
+## System Design Intro (for advanced prep)
+- Basic concepts (scalability, load balancers, caching)
+- When to move from DSA to Low-Level Design (LLD) & High-Level Design (HLD)
+
+## Final Steps
+- Building a Simple DSA-Based App
+- Problem-Solving with DSA
+- Mock Interviews & Contest Practice
+- Final Project Review
+- Revision & Practice
+- Project/Revision
