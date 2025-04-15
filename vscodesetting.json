@@ -73,7 +73,7 @@
     "markdown.preview.lineHeight": 1,
     "terminal.integrated.enableImages": true,
     "debug.console.fontSize": 18,
-    "debug.autoExpandLazyVariables": true,
+    "debug.autoExpandLazyVariables": "on",
     "security.workspace.trust.untrustedFiles": "open",
     "json.schemas": [],
     "git.confirmSync": false,
@@ -112,7 +112,6 @@
     "editor.inlayHints.fontSize": 18,
     "database-client.autoSync": true,
     "python.globalModuleInstallation": true,
-    "python.analysis.inlayHints.callArgumentNames": "all",
     "editor.autoClosingQuotes": "always",
     "code-runner.clearPreviousOutput": true,
     "code-runner.runInTerminal": true,
@@ -122,10 +121,7 @@
     "python.analysis.autoImportCompletions": true,
     "python.analysis.cacheLSPData": true,
     "python.analysis.diagnosticMode": "workspace",
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.analysis.inlayHints.pytestParameters": true,
-    "python.analysis.inlayHints.variableTypes": true,
-    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.typeCheckingMode": "off",
     "python.analysis.packageIndexDepths": [
         { "name": "sklearn", "depth": 2 },
         { "name": "matplotlib", "depth": 2 },
@@ -134,24 +130,36 @@
         { "name": "flask", "depth": 2 },
         { "name": "fastapi", "depth": 2 }
     ],
-    "vsintellicode.java.completionsEnabled": true
+    "vsintellicode.java.completionsEnabled": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "python.analysis.typeEvaluation.analyzeUnannotatedFunctions": false,
+    "python.analysis.typeEvaluation.strictParameterNoneValue": false,
+    "python.analysis.typeEvaluation.enableTypeIgnoreComments": false,
+    "python.analysis.enablePytestSupport": false,
+    "python.analysis.aiCodeActions": {
+
+    }
 }
 
 
 
-additional steps:
+// additional steps:
 
-You can learn more about virtual environments with Python here: https://docs.python.org/3/tutorial/venv.html
+// You can learn more about virtual environments with Python here: https://docs.python.org/3/tutorial/venv.html
 
-Using virtual environments is optional.
+// Using virtual environments is optional.
 
-Using "Pylance"
-When using Visual Studio Code (recommended), you can use the "Pylance" extension to get better code checks and code completion.
+// Using "Pylance"
+// When using Visual Studio Code (recommended), you can use the "Pylance" extension to get better code checks and code completion.
 
-To enable it in your Python / Django project, you can add a special setting to your your project-specific configuration (i.e. your .vscode/settings.json file):
+// To enable it in your Python / Django project, you can add a special setting to your your project-specific configuration (i.e. your .vscode/settings.json file):
 
-{
+// {
 
-"python.languageServer": "Pylance",
+// "python.languageServer": "Pylance",
 
-}
+// python -m venv venv
+
+// source venv/Scripts/activate
+
+// }

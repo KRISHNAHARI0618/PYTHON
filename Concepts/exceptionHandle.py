@@ -18,6 +18,7 @@ Run Time Error --> Not Giving Outputs
 Logical Error --> While Testing it will come out
 
 '''
+print()
 def set(age):
     if age < 0:
         raise ValueError("Age should be greater than 0")

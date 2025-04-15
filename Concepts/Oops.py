@@ -33,4 +33,6 @@ print(o1.add(20,30))
 print(o1.add(30,50))
 
 
-print(ord(letters))
+def mallirava():
+    for i in range(10):
+        print(i)

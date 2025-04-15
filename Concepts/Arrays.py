@@ -17,6 +17,7 @@ print(arr1)
 
 arr1.insert(3,200) # adds where ever you require
 print(arr1)
+print()
 
 print(arr1[::-1])
 
@@ -24,12 +25,24 @@ def travs(arr1):
     for i in arr1:
         print(i)
 
+print()
+print()
+print()
+print(())
+print()
+print()
+print()
 
+print()
+
+def zero():
+    for i in range(10):
+        print(i)
 travs(arr1)
 
 # Create a Two Dimensional Array
 
-arr2 = np.array([[1,2,3],[4,5,6],[7,8,9]])
+arr2 = np.array([[1,2,3],[4,5,6],[7,8,9]]) # type: ignore
 print(arr2)
 newArr2 = np.insert(arr2,0,[1,8,9],axis=1)
 print(newArr2)
