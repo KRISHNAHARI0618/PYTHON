@@ -22,12 +22,22 @@
 - O(a+b) ` if iterations are different`
 - O(a*b) ` if the lop iteratees inside for multiple times`
 
-
 ### Linked List
 - Linnked list does not have indexes
 - it will not store in contiguous locations
 - it will have head and tail on is connecetd to another in the memory
 - it is connected between the nodes
+
+- **What is Linked List**
+- Linked list Is a Form of sequential collection and it does not have to be in order. A linked list is made up of independent nodes that may contain any type of data and each node has a reference of next node in the link
+- Linked List is not contigious
+
+- Types of Linked Lists:
+  - Singly Linked List : Reference of last node is Null
+  - Double Linked List : It contains the reference of previous node and next node
+  - Circular Singly Linked list : reference of last node is First Node
+  - Circularly Double Linked List: reference of last node is First node value
+  
 #### Big O Notation
 - Node is pointer & value 
 - Its is also a nested dictionary
@@ -63,6 +73,25 @@ class HashTable
   - try different ways
   - understand it a glance
   - how other poeple solve this problem
+
+## DSA Concepts:
+- Tree/Binary Trees
+- Binary Search Tree
+- AVL Tree
+- Binary Heap
+- Trie
+- Hashing
+- Sort Algorithms
+- Searching Algorithms
+- Graph Algorithms
+- Graph Traversal
+- Topological Sorting
+- All Pairs Shortest Path
+- Greedy Algorithms
+- Divide and Conquer
+- Dynamic Programming
+- Backtracking
+- The Wild West (possibly a project or special topic)
 
 # Data Structures and Algorithms (DSA) - Interview-Focused Roadmap
 
@@ -188,3 +217,5 @@ class HashTable
 - Final Project Review
 - Revision & Practice
 - Project/Revision
+
+7989342423
