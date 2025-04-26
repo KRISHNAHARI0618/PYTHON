@@ -23,11 +23,27 @@ class Stack:
             new_node.next = self.top
             self.top = new_node
         self.height = self.height+1
-
+    def stack_pop(self):
+        if self.height == 0:
+            return None
+        temp = self.top
+        self.top = self.top.next
+        temp.next = None
+        self.height = self.height - 1
+        return temp.value
+    
+print("Stack Push Is Started")
 stacklist = Stack(10)
+stacklist.stack_push(20)
+stacklist.stack_push(30)
 stacklist.print_stack()
 
-print("Stack Push Is Started")
+print("Pop Stack Started ...")
+print(stacklist.stack_pop())
+print(stacklist.stack_pop())
+print(stacklist.stack_pop())
+
+print("Again pushing the value to stack...")
 stacklist.stack_push(20)
 stacklist.stack_push(30)
 stacklist.print_stack()
