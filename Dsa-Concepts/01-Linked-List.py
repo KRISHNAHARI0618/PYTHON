@@ -96,8 +96,10 @@ class LinkedList:
             temp = temp.Next
 
     def pop(self):
+        # Linked List Contains 0 Elements
         if self.length == 0:
             return None
+        # LL Contains more than 1 elements
         temp = self.head
         pre = self.head
         while (temp.Next):
@@ -106,6 +108,7 @@ class LinkedList:
         self.tail = pre
         self.tail.Next = None
         self.length = self.length - 1
+        # LL Contains One element 
         if self.length == 0:
             self.head = None
             self.tail = None
@@ -121,7 +124,19 @@ class LinkedList:
             self.head = new_node
         self.length = self.length + 1
 
-
+    def pop_first(self):
+        # For Empty List 
+        if self.length == 0:
+            return None
+        # For More Than One elements in Linked List
+        temp = self.head
+        self.head = self.head.Next
+        temp.next = None
+        self.length = self.length - 1
+        # For Linked List Contains one element
+        if self.length == 0:
+            self.tail = None
+        return temp.Value
 
 newLList = LinkedList(10)
 print(newLList.head.Value)
@@ -137,3 +152,6 @@ newLList.printList()
 
 newLList.pop()
 newLList.printList()
+
+newLList.pop_first()
+
