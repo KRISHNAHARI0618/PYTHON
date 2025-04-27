@@ -58,4 +58,3 @@ for i in range(len(arr3)):
 list1 = [2,3,4,5,6,7]
 iters = iter(list1)
 print(next(iters))
-INFO:__main__:started
