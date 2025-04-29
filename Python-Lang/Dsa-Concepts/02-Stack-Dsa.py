@@ -10,11 +10,13 @@ class Stack:
         new_node = Node(value)
         self.top = new_node
         self.height = 1
+
     def print_stack(self):
         temp = self.top
         while temp is not None:
             print(temp.value)
             temp = temp.next
+
     def stack_push(self,value):
         new_node = Node(value)
         if self.height == 0:
@@ -23,6 +25,7 @@ class Stack:
             new_node.next = self.top
             self.top = new_node
         self.height = self.height+1
+        
     def stack_pop(self):
         if self.height == 0:
             return None
